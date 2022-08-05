@@ -1,0 +1,98 @@
+body{
+  min-height: 100vh;
+  background: linear-gradient(#25363e, #09051e);
+}
+
+.main-menu{
+  display: inline;
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.25em;
+}
+
+ul{
+  color:white;
+}
+
+table{
+  color:white;
+}
+
+a{color: white }
+a:link{text-decoration: none; }
+a:visited{text-decoration: none; }
+a:hover{text-decoration: underline; }
+a:active {text-decoration: none; }
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 4px;
+  color:#00c897;
+  width: 15%
+}
+
+h1{color: #100f0f;}
+h2,h3{color:#019267;
+}
+
+.circular{
+  border-radius: 100%;
+}
+
+.parent{
+  column-gap: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 2%;
+  width:96%;
+}
+
+.creativity{
+  border-color: #00c897;
+  border-width: 3px;
+  border-style: double;
+  padding:10px;
+  width:32%;
+}
+
+.technical{
+  border-color: #9565ff;
+  border-width: 3px;
+  border-style: double;
+  padding:10px;
+  width:32%;
+}
+
+.communication{
+  border-color: #ff9b65;
+  border-width: 3px;
+  border-style: double;
+  padding:10px;
+  width:32%;
+}
+
+.education{
+  border-color: #00c897;
+  border-width: 3px;
+  border-style: dashed;
+  padding:10px;
+  width:32%;
+}
+
+.certifications{
+  border-color: #ff9b65;
+  border-width: 3px;
+  border-style: dashed;
+  padding:10px;
+  width:32%;
+}
+
+.work-experience{
+  border-color: #9565ff;
+  border-width: 3px;
+  border-style: dashed;
+  padding:10px;
+  width:32%;
+}
